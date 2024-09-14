@@ -58,7 +58,7 @@ public class Makemytrip_testng {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			to_city_button = driver.findElement(By.id("toCity"));
 			wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			wait.until(ExpectedConditions.elementToBeClickable(from_city_button));
+			wait.until(ExpectedConditions.elementToBeClickable(to_city_button));
 			to_city_button.click();
 			driver.findElement(By.xpath("//input[@placeholder='To']")).sendKeys("MAA");
 			driver.findElement(By.xpath("//span[text()='Chennai']")).click();		

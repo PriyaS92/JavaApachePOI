@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class MakemyTrip_ApplicationTest {
+public class MakemyTrip_Application {
 
 	WebDriver driver;
 	WebDriverWait wait;
@@ -99,7 +99,7 @@ public class MakemyTrip_ApplicationTest {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MakemyTrip_ApplicationTest mmt = new MakemyTrip_ApplicationTest();
+		MakemyTrip_Application mmt = new MakemyTrip_Application();
 		mmt.setup();
 		mmt.searchpage_validation();
 		mmt.teardown();
